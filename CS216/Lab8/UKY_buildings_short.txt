@@ -1,0 +1,6 @@
+Funkhouser Building   	0054   	D7   
+Multidisciplinary Science Building   	0082   	E7   
+Davis Marksbury Building   	0633   	B5   
+Memorial Coliseum   	0019   	B5   
+W. T. Young Library   	0456   	E5   
+King Library   	0039   	C6   

@@ -1,0 +1,11 @@
+Author:
+Contents:
+Running:
+Implementation Notes:
+Limitations:
+References:
+
+script to start
+exit
+
+tar czvf cs270-program1.tar.gz directory/

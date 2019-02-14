@@ -1,0 +1,39 @@
+Script started on 2019-02-02 18:09:15-0500
+]0;will@will-Lenovo-IdeaPad-Y580: ~/Documents/School Programming Work/CS270/Project1[01;32mwill@will-Lenovo-IdeaPad-Y580[00m:[01;34m~/Documents/School Programming Work/CS270/Project1 [00m$ make run
+cc -fPIC -no-pie -std=c99 -Wall  -c -o kstring.o kstring.c
+cc -fPIC -no-pie -std=c99 -Wall  -o test-full test-full.o kstring.o
+./test-full
+Test   0/ 26: kstralloc + kstrfree                               [32;1msucceeded[0m (1)
+Test   1/ 26: kstralloc initializes memory to 0                  [32;1msucceeded[0m (1)
+Test   2/ 26: kstralloc sets length                              [32;1msucceeded[0m (1)
+Test   3/ 26: kstralloc sets length (big)                        [32;1msucceeded[0m (1)
+Test   4/ 26: kstralloc sets length (0 bytes)                    [32;1msucceeded[0m (1)
+Test   5/ 26: kstralloc aborts on allocation failure             [32;1msucceeded[0m (1)
+Test   6/ 26: kstrlen matches allocation                         [32;1msucceeded[0m (1)
+Test   7/ 26: kstrlen matches allocation (big)                   [32;1msucceeded[0m (1)
+Test   8/ 26: kstrlen matches allocation (0 bytes)               [32;1msucceeded[0m (1)
+Test   9/ 26: kstrfrom gives correct length                      [32;1msucceeded[0m (1)
+Test  10/ 26: kstrfrom contains null byte                        [32;1msucceeded[0m (1)
+Test  11/ 26: kstrfrom contains correct data                     [32;1msucceeded[0m (1)
+Test  12/ 26: kstrfrom copies, not shares, data                  [32;1msucceeded[0m (1)
+Test  13/ 26: kstrget fetches all indices correctly              [32;1msucceeded[0m (1)
+Test  14/ 26: kstrget aborts when out of bounds                  [32;1msucceeded[0m (1)
+Test  15/ 26: kstrput sets all indices correctly                 [32;1msucceeded[0m (1)
+Test  16/ 26: kstrput aborts when out of bounds                  [32;1msucceeded[0m (1)
+Test  17/ 26: kstrextend lengthens kstring                       [32;1msucceeded[0m (1)
+Test  18/ 26: kstrextend does not shorten kstring                [32;1msucceeded[0m (1)
+Test  19/ 26: kstrextend supports length-0 kstring               [32;1msucceeded[0m (1)
+Test  20/ 26: kstrextend copies old contents                     [32;1msucceeded[0m (1)
+Test  21/ 26: kstrextend extends with null bytes                 [32;1msucceeded[0m (1)
+Test  22/ 26: kstrcat of two empty kstrings                      [32;1msucceeded[0m (1)
+Test  23/ 26: kstrcat with empty kstring                         [32;1msucceeded[0m (1)
+Test  24/ 26: kstrcat onto empty kstring                         [32;1msucceeded[0m (1)
+Test  25/ 26: kstrcat has correct data                           [32;1msucceeded[0m (1)
+
+RESULTS: 26 / 26 tests passed, 0 skipped, 0 failed
+]0;will@will-Lenovo-IdeaPad-Y580: ~/Documents/School Programming Work/CS270/Project1[01;32mwill@will-Lenovo-IdeaPad-Y580[00m:[01;34m~/Documents/School Programming Work/CS270/Project1 [00m$ make clean
+rm -f test-abbrev test-full test-abbrev.o kstring.o core vgcore.*
+]0;will@will-Lenovo-IdeaPad-Y580: ~/Documents/School Programming Work/CS270/Project1[01;32mwill@will-Lenovo-IdeaPad-Y580[00m:[01;34m~/Documents/School Programming Work/CS270/Project1 [00m$ exit
+exit
+
+Script done on 2019-02-02 18:10:36-0500
