@@ -6,7 +6,7 @@
  *          option 2: list the buildings in dictionary order by buildings' names
  *          option 3: list the buildings in ascending order by buildings' IDs (four-digit number, may contain extra leading zero)
  *          option 4: list the buildings in reverse dictionary order by buildings' coordinates in the map)
- *Author: (your name)
+ *Author: Will Zrnchik
  */ 
 
 #include <iostream>
