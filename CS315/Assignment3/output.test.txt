@@ -1,0 +1,23 @@
+I 2
+def 1
+don 1
+equal 1
+events 1
+friend 1
+hey 1
+m 1
+most 2
+t 1
+when 2
+
+I 2
+when 2
+most 2
+hey 1
+don 1
+events 1
+t 1
+def 1
+friend 1
+m 1
+equal 1

@@ -14,6 +14,3 @@ clean:
 
 run: $(GOAL)
 	./$(GOAL)
-
-#search: $(GOAL)	Old Extra Credit
-#	./$(GOAL) 1

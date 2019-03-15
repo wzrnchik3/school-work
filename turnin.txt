@@ -1,9 +1,15 @@
-Author:
-Contents:
+Author: William Zrnchik
+Contents: 
 Running:
 Implementation Notes:
 Limitations:
 References:
+
+Author: Your name and email address, and the date the program was finished.
+Contents: A list of all the files in your submission, with a brief one-line description of each. For example, "kstring.c: implementation of kstring functions", or "README: this file".
+Running: Brief instructions explaining how to compile and run your program.
+Implementation notes: Describe any design decisions you made when implementing your functions. For example: which method do they use to allocate memory, how do you detect and handle errors, and did you implement any additional helper functions?
+Limitations: If you have any failing test cases, memory leaks, or other memory errors, describe the problems here. Where do the problems occur, what steps did you take to try to solve them, and what further steps would you take if you had more time?
 
 script to start
 exit

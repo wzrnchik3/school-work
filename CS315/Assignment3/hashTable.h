@@ -2,29 +2,24 @@
 
 #include <string>
 #include <iostream>
+#include <fstream> // for ofstream
 using namespace std;
-int const MAX = 1000;
+int const MAX = 1000; // was a big enough array for hashing
 
-struct hashData
+struct hashData // data being stored in table
 {
     string word; // word being hashed
     int numIn; // num of words in chain
-    hashData() // constructors
-    {
-        word = "";
-        numIn = 0;
-    }
 };
 
 class hashTable // hash table class
 {
     public:
         hashTable();
-        //~hashTable();
         void addToTable(string w);
-        int sortIndexA();
-        int sortIndexN();
+        void sortIndexA(hashData array[], int size, int root);
+        int sortIndexN(hashData array[], int size, int root);
         void printSorted();
     private:
-        hashData table[MAX];
+        hashData table[MAX]; // the hash table
 };
