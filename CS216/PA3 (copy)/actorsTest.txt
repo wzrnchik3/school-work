@@ -1,0 +1,7 @@
+3	Tom Hanks
+50	Famke Janssen
+63	Kevin Bacon
+300	Harvey Keitel
+346	Demi Moore
+420	Adam Sandler
+555	Bill Paxton
