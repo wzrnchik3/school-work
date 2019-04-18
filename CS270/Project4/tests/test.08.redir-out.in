@@ -1,0 +1,4 @@
+echo file > test.tmp
+echo stdout
+cat test.tmp
+rm test.tmp

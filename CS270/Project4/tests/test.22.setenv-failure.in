@@ -1,0 +1,2 @@
+setenv VAR=ILLEGAL value
+echo still alive

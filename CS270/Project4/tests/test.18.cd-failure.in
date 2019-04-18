@@ -1,0 +1,2 @@
+cd /does/not/exist
+echo still alive

@@ -1,0 +1,186 @@
+Insert 1 Parent 2 Marriage 1
+Insert 4 Parent 5 Marriage 1
+Family 1 Husband 1 Wife 4 Child 7 Child 8
+Insert 2 Parent 3 Marriage 2
+Insert 3 Parent 4 Marriage 2
+Family 2 Husband 2 Wife 3 Child 13 Child 14 Child 1 Child 15
+Family 3 Husband 9 Wife 10 Child 2 Child 16
+Family 4 Husband 11 Wife 12 Child 3 Child 17
+Insert 7 Parent 1 Marriage 0
+Insert 8 Parent 1 Marriage 0
+Insert 13 Parent 2 Marriage 6
+Insert 14 Parent 2 Marriage 0
+Family 5 Husband 5 Wife 6 Child 4 Child 19 Child 20
+Insert 19 Parent 5 Marriage 7
+Insert 20 Parent 5 Marriage 8
+Insert 21 Parent 7 Marriage 0
+Insert 22 Parent 7 Marriage 0
+Insert 16 Parent 3 Marriage 9
+Insert 17 Parent 4 Marriage 10
+Insert 5 Parent 11 Marriage 5
+Insert 6 Parent 12 Marriage 5
+Insert 9 Parent 13 Marriage 3
+Family 6 Husband 13 Wife 18 
+Insert 10 Parent 14 Marriage 3
+Insert 11 Parent 15 Marriage 4
+Insert 12 Parent 16 Marriage 4
+Insert 18 Parent 0 Marriage 6
+Insert 25 Parent 0 Marriage 8
+Insert 26 Parent 0 Marriage 9
+Insert 27 Parent 0 Marriage 10
+Insert 23 Parent 7 Marriage 0
+Insert 24 Parent 0 Marriage 7
+Family 7 Husband 19 Wife 24 Child 21 Child 22 Child 23
+Family 8 Husband 25 Wife 20 Child 28
+Family 9 Husband 16 Wife 26 Child 30 Child 31
+Family 10 Husband 27 Wife 17 Child 33 Child 32
+Insert 28 Parent 8 Marriage 0
+Insert 30 Parent 9 Marriage 17
+Insert 31 Parent 9 Marriage 0
+Insert 32 Parent 10 Marriage 0
+Insert 33 Parent 10 Marriage 71
+Insert 29 Parent 0 Marriage 17
+Insert 34 Parent 17 Marriage 0
+Insert 35 Parent 17 Marriage 0
+Insert 36 Parent 17 Marriage 0
+Insert 37 Parent 0 Marriage 0
+Insert 39 Parent 19 Marriage 14
+Insert 40 Parent 20 Marriage 14
+Insert 41 Parent 21 Marriage 0
+Insert 42 Parent 14 Marriage 21
+Family 14 Husband 40 Wife 39 Child 10 Child 42
+Insert 43 Parent 0 Marriage 21
+Insert 44 Parent 21 Marriage 22
+Insert 45 Parent 22 Marriage 23
+Insert 46 Parent 0 Marriage 23
+Insert 47 Parent 23 Marriage 0
+Family 23 Husband 46 Wife 45 Child 47
+Insert 48 Parent 22 Marriage 0
+Insert 49 Parent 22 Marriage 24
+Insert 50 Parent 0 Marriage 24
+Family 24 Husband 50 Wife 49 
+Family 22 Husband 44 Wife 51 Child 45 Child 48 Child 49
+Insert 51 Parent 0 Marriage 22
+Family 21 Husband 43 Wife 42 Child 44 Child 41
+Insert 52 Parent 20 Marriage 0
+Insert 53 Parent 20 Marriage 0
+Family 20 Husband 54 Wife 0 Child 40 Child 52 Child 53
+Insert 54 Parent 0 Marriage 20
+Insert 55 Parent 19 Marriage 26
+Insert 56 Parent 0 Marriage 26
+Insert 57 Parent 0 Marriage 27
+Family 27 Husband 57 Wife 55 
+Insert 58 Parent 26 Marriage 28
+Insert 59 Parent 0 Marriage 0
+Insert 60 Parent 28 Marriage 29
+Insert 61 Parent 0 Marriage 29
+Insert 62 Parent 29 Marriage 0
+Family 29 Husband 61 Wife 60 Child 62
+Insert 63 Parent 28 Marriage 30
+Insert 64 Parent 0 Marriage 30
+Insert 65 Parent 30 Marriage 0
+Family 30 Husband 63 Wife 64 Child 65
+Insert 66 Parent 28 Marriage 31
+Insert 67 Parent 0 Marriage 31
+Insert 68 Parent 31 Marriage 0
+Insert 69 Parent 31 Marriage 0
+Family 31 Husband 67 Wife 66 Child 69 Child 68
+Check
+Insert 70 Parent 28 Marriage 32
+Insert 71 Parent 0 Marriage 32
+Insert 72 Parent 32 Marriage 0
+Insert 73 Parent 32 Marriage 0
+Family 32 Husband 70 Wife 71 Child 72 Child 73
+Family 28 Husband 59 Wife 58 Child 60 Child 63 Child 66 Child 70
+Insert 74 Parent 26 Marriage 33
+Insert 75 Parent 0 Marriage 33
+Insert 76 Parent 33 Marriage 0
+Family 33 Husband 75 Wife 74 Child 76
+Insert 77 Parent 26 Marriage 34
+Insert 78 Parent 34 Marriage 35
+Insert 79 Parent 0 Marriage 35
+Insert 80 Parent 35 Marriage 0
+Family 35 Husband 78 Wife 79 Child 80
+Family 36 Husband 78 Wife 0 
+Check
+Family 34 Husband 0 Wife 77 Child 78
+Insert 81 Parent 26 Marriage 0
+Family 26 Husband 56 Wife 55 Child 58 Child 74 Child 77 Child 81
+Insert 82 Parent 19 Marriage 37
+Insert 83 Parent 0 Marriage 37
+Insert 84 Parent 37 Marriage 38
+Insert 85 Parent 0 Marriage 38
+Insert 87 Parent 38 Marriage 0
+Insert 88 Parent 38 Marriage 40
+Insert 89 Parent 0 Marriage 40
+Insert 90 Parent 40 Marriage 41
+Family 41 Husband 0 Wife 90 
+Family 40 Husband 88 Wife 89 Child 90
+Family 43 Husband 0 Wife 0 
+Family 42 Husband 0 Wife 0 
+Family 44 Husband 0 Wife 0 
+Family 45 Husband 0 Wife 0 
+Family 46 Husband 0 Wife 0 
+Family 47 Husband 0 Wife 0 
+Family 48 Husband 0 Wife 0 
+Family 49 Husband 0 Wife 0 
+Family 50 Husband 0 Wife 0 
+Family 38 Husband 84 Wife 85 Child 88 Child 87
+Family 52 Husband 0 Wife 0 
+Family 51 Husband 0 Wife 0 
+Family 53 Husband 0 Wife 0 
+Family 54 Husband 0 Wife 0 
+Family 56 Husband 0 Wife 0 
+Family 57 Husband 0 Wife 0 
+Family 58 Husband 0 Wife 0 
+Family 55 Husband 0 Wife 0 
+Family 61 Husband 0 Wife 0 
+Family 59 Husband 0 Wife 0 
+Family 60 Husband 0 Wife 0 
+Family 63 Husband 0 Wife 0 
+Family 64 Husband 0 Wife 0 
+Family 65 Husband 0 Wife 0 
+Family 66 Husband 0 Wife 0 
+Family 67 Husband 0 Wife 0 
+Family 62 Husband 0 Wife 0 
+Family 69 Husband 0 Wife 0 
+Family 68 Husband 0 Wife 0 
+Family 70 Husband 0 Wife 0 
+Family 37 Husband 83 Wife 82 Child 84
+Family 19 Husband 0 Wife 0 Child 82 Child 55 Child 39
+Family 71 Husband 33 Wife 0 
+Family 72 Husband 0 Wife 0 
+Family 75 Husband 0 Wife 0 
+Family 76 Husband 0 Wife 0 
+Family 73 Husband 0 Wife 0 
+Family 79 Husband 0 Wife 0 
+Family 80 Husband 0 Wife 0 
+Family 81 Husband 0 Wife 0 
+Family 77 Husband 0 Wife 0 
+Family 83 Husband 0 Wife 0 
+Family 78 Husband 0 Wife 0 
+Family 84 Husband 0 Wife 0 
+Family 85 Husband 0 Wife 0 
+Family 82 Husband 0 Wife 0 
+Family 74 Husband 0 Wife 0 
+Family 86 Husband 0 Wife 0 
+Family 90 Husband 0 Wife 0 
+Family 89 Husband 0 Wife 0 
+Family 87 Husband 0 Wife 0 
+Family 88 Husband 0 Wife 0 
+Family 13 Husband 0 Wife 0 Child 9
+Family 17 Husband 30 Wife 29 Child 34 Child 35 Child 36
+Family 18 Husband 0 Wife 31 Child 38
+Insert 38 Parent 18 Marriage 0
+Family 15 Husband 0 Wife 0 Child 11
+Family 16 Husband 0 Wife 0 Child 12
+Family 25 Husband 0 Wife 0 
+Family 11 Husband 0 Wife 0 Child 5
+Family 12 Husband 0 Wife 0 Child 6
+Insert 15 Parent 2 Marriage 0
+Insert 86 Parent 0 Marriage 0
+Family 39 Husband 0 Wife 0 
+Check
+Relate 3 7
+Relate 20 30
+Relate 99 1

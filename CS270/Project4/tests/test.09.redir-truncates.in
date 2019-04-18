@@ -1,0 +1,4 @@
+echo long string here > test.tmp
+echo short > test.tmp
+cat test.tmp
+rm test.tmp

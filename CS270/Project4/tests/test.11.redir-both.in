@@ -1,0 +1,5 @@
+echo file > test.tmp
+tr a-z A-Z < test.tmp > test.tmp.2
+cat < test.tmp
+cat < test.tmp.2
+rm test.tmp test.tmp.2

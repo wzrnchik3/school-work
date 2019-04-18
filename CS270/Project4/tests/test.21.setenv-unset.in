@@ -1,0 +1,6 @@
+setenv TESTVAR first
+tests/helpers/getenv TESTVAR
+setenv TESTVAR
+tests/helpers/getenv TESTVAR
+setenv TESTVAR second
+tests/helpers/getenv TESTVAR

@@ -1,0 +1,2 @@
+exit
+echo Should not see this.

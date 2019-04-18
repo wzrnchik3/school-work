@@ -1,0 +1,2 @@
+setenv TESTVAR value
+tests/helpers/getenv TESTVAR

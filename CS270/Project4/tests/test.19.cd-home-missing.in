@@ -1,0 +1,7 @@
+setenv HOME 
+cd /usr/bin
+pwd
+cd
+cd ..
+echo should be in /usr still
+pwd

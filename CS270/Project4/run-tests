@@ -1,0 +1,56 @@
+#! /bin/sh
+
+if ! [ -d tests/ ]; then
+	echo >&2 "Error: could not find tests/ directory."
+	exit 1
+fi
+
+if ! [ -d tests/expected/ ]; then
+	echo >&2 "Error: could not find tests/expected/ directory."
+	exit 1
+fi
+
+if ! [ -x ./shell ]; then
+	echo >&2 "Error: could not find ./shell executable."
+	exit 1
+fi
+
+for testfile in tests/test.*.in; do
+	base=$(basename "$testfile" .in)
+	num=${base#test.}
+	name=${num#*.}
+	num=${num%%.*}
+	expectout=tests/expected/"$base".out
+	expecterr=tests/expected/"$base".err
+	out=tests/output."$num"
+	err=tests/error."$num"
+
+	printf "Running test %2s: %-25s ... " "$num" "$name"
+	timeout 3 ./shell "$testfile" > tests/output."$num" 2> tests/error."$num"
+
+	if ! cmp -s "$out" "$expectout"; then
+		tput setaf 1
+		tput bold
+		echo FAILED
+		tput sgr0
+		echo "    Files $out and $expectout differ, please review."
+	elif [ -s "$err" ] && ! [ -s "$expecterr" ]; then
+		tput setaf 1
+		tput bold
+		echo FAILED
+		tput sgr0
+		echo "    Received unexpected error output (see $err)."
+	elif ! [ -s "$err" ] && [ -s "$expecterr" ]; then
+		tput setaf 1
+		tput bold
+		echo FAILED
+		tput sgr0
+		echo "    Missing expected error output (see $expecterr)."
+	else
+		rm -f "$out" "$err"
+		tput setaf 2
+		tput bold
+		echo SUCCESS
+		tput sgr0
+	fi
+done

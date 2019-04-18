@@ -1,0 +1,6 @@
+cd /usr/bin
+echo alive in:
+pwd
+cd /home
+echo and now in:
+pwd
